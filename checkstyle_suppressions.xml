@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Specify which style warnings may be ignored for COM1027. -->
+
+<!DOCTYPE suppressions PUBLIC
+    "-//Checkstyle//DTD SuppressionFilter Configuration 1.1//EN"
+    "https://checkstyle.org/dtds/suppressions_1_1.dtd">
+
+<suppressions>
+    <suppress files="" checks="PackageName"/>  <!-- Allow underscore in package names. -->
+    <suppress files="^(?!.*coursework_question1[\\\/]Auctioneer\.java$)" checks="MissingJavadocType"/>  <!-- Check Javadoc for Q1 Auctioneer only. -->
+    <suppress files="^(?!.*coursework_question1[\\\/]Auctioneer\.java$)" checks="MissingJavadocMethod"/>  <!-- Check Javadoc for Q1 Auctioneer only. -->
+    <suppress files=".*JTest.*" checks="AbbreviationAsWordInName"/>  <!-- Allow 'JTest' abbreviation in test file names. -->
+</suppressions>

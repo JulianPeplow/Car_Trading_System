@@ -1,0 +1,4 @@
+Total Auction Sales: 1
+Automatic Cars: 100.0%
+Manual Cars: 0.0%
+Top Seller: Stella K. (Sales: 1, Rating: Level 1)
